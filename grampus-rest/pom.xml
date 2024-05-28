@@ -16,4 +16,12 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <artifactId>grampus-rest</artifactId>
+            <groupId>org.grampus</groupId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
 </project>
