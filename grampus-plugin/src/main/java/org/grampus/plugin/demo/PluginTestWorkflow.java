@@ -8,7 +8,7 @@ import org.grampus.log.GLogger;
 
 import java.util.Random;
 
-public class Workflow extends GWorkflow {
+public class PluginTestWorkflow extends GWorkflow {
     @Override
     public void buildWorkflow() {
         service("TEST_service").cell(new GCell(){
@@ -45,7 +45,7 @@ public class Workflow extends GWorkflow {
     }
 
     public static void main(String[] args) {
-        GWorkflow workflow = new Workflow();
+        GWorkflow workflow = new PluginTestWorkflow();
         workflow.start();
     }
 
