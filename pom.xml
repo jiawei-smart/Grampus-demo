@@ -13,6 +13,7 @@
         <module>grampus-core</module>
         <module>grampus-rest</module>
         <module>grampus-fix</module>
+        <module>grampus-micrometer</module>
     </modules>
 
     <properties>

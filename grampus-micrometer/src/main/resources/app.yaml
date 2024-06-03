@@ -1,0 +1,11 @@
+!org.grampus.core.GWorkflowOptions:
+
+    config:
+        S1:
+          key: value
+          env: !ENV ${myEnv}
+
+        PLUGIN_SERVICE:
+          micrometerConfig: !!org.grampus.micrometer.prometheus.GMicrometerPrometheusOptions
+            name: TEST_METRIC
+            port: 8080
